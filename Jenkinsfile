@@ -28,14 +28,6 @@ pipeline {
       
     }
     
-    stage ("checkout") {
-      
-      steps {
-          echo 'checking out the code'
-      }
-      
-    }
-    
   }
   
 }
